@@ -65,7 +65,7 @@ function set2(){
   <!-- <label style="margin-left:2%" class="form-label span3" for="file">Import Students</label><br><br>
    -->
    <!-- <label>User</label> -->
-   <input style="margin-top:2%" type="text" placeholder="Select User" name="user_id" id="user_id" required></input><br>
+   <input style="margin-top:2%" type="text" placeholder="Select User" name="search" id="search" required></input><br>
    <input type="text" name="id_field" id="id_field"></input>
    <!-- <label>Sub Category</label> -->
    <br>

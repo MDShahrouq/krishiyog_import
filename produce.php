@@ -69,7 +69,7 @@ if(isset($_FILES['file']['name'])){
 			  'http' => array(
 			    'header'  => array(
 			                  'STRING: '.$stack,
-			                  'USER-ID: '.$_POST['user_id'],
+			                  'USER-ID: '.$_POST['id_field'],
 			                  'SUB-CATEGORY: '.$_POST['sub_category'],
 			                ),
 			    'method'  => 'GET',
