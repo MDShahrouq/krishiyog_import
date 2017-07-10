@@ -2,14 +2,6 @@
 <head>
  <link rel="stylesheet" type="text/css" href="autocomplete-Files/styles.css">
 
- 
-
-    <!-- AutoSearch Script files don't move -->
-     <script type="text/javascript" src="autocomplete-Files/jquery-1.8.2.min.js"></script>
-     <script type="text/javascript" src="autocomplete-Files/jquery.mockjax.js"></script>
-     <script type="text/javascript" src="autocomplete-Files/jquery.autocomplete.js"></script>
-    <script type="text/javascript" src="autocomplete-Files/Logic_Search.js"></script>
-        <script type="text/javascript" src="autocomplete-Files/users.js"></script> 
 </head>
 <body>
 
@@ -125,6 +117,15 @@ file_put_contents('autocomplete-Files/users.js', $foo);
 
 ?>
 
+
+ 
+
+    <!-- AutoSearch Script files don't move -->
+     <script type="text/javascript" src="autocomplete-Files/jquery-1.8.2.min.js"></script>
+     <script type="text/javascript" src="autocomplete-Files/jquery.mockjax.js"></script>
+     <script type="text/javascript" src="autocomplete-Files/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="autocomplete-Files/Logic_Search.js"></script>
+        <script type="text/javascript" src="autocomplete-Files/users.js"></script> 
 
 
 </body>
