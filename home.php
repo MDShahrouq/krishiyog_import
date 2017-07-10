@@ -101,7 +101,7 @@ $db = pg_connect("host=ec2-50-17-220-223.compute-1.amazonaws.com port=5432 dbnam
  pg_select($db, 'post_log', $_POST);
 
 
- $query=pg_query("SELECT id,name FROM userregistration_userregistration");
+ $query=pg_query("SELECT id,name FROM userregistration_userregistration WHERE name != null");
 
 /*echo $query;*/
 
